@@ -1,43 +1,44 @@
 <!DOCTYPE html>
-	<html lang="en">
-		<head>
-			<meta charset="utf-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-			<meta name="description" content="">
-	    <meta name="author" content="JFRN">
-			<!--link rel="icon" href="res/favicon.ico"-->
-			<title>{{ page.title }}</title>
-			<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-			<link href="css/default.css" rel="stylesheet" type="text/css">
-		</head>
-		<body>
-			<div class="container">
-				<div class="header clearfix">
-					<nav>
-			    		<ul class="nav nav-pills pull-right">
-			        		<li role="presentation"><a href="/">Home</a></li>
-				        	<li role="presentation"><a href="/about">About</a></li>
-			        		<li role="presentation"><a href="/blog">Blog</a></li>
-			    		</ul>
-					</nav>
-					<h3 class="text-muted">JFRN</h3>
-			<div class="container">
-
-			{{ content }}
-
-			</div><!-- /.container -->
-			<footer>
-				<div class="navbar navbar-inverse navbar-fixed-bottom">
-					<div class="container">
-						<div class="navbar-collapse collapse" id="footer-body">
-							<ul class="nav navbar-nav" style="list-style-type: none;">
-								<li><a href="http://jfrn.github.io/">&copy; {{ site.time | date: "%Y" }} JFRN</a></li>
-								<li><a href="mailto:jfrn.josefer@gmail.com">Email</a></li>
-								<li><a href="https://github.com/jfrn">GitHub</a></li>
-							</ul>
-						</div>
-				</div>
-			</footer>
-		</body>
-	</html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+    <meta name="author" content="JFRN">
+		<!--link rel="icon" href="res/favicon.ico"-->
+		<title>{{ page.title }}</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="css/default.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header clearfix">
+				<nav>
+		    		<ul class="nav nav-pills pull-right">
+		        		<li role="presentation" class="active"><a href="/">Home</a></li>
+			        	<li role="presentation"><a href="/about">About</a></li>
+		        		<li role="presentation"><a href="/blog">Blog</a></li>
+		    		</ul>
+				</nav>
+				<h3 class="text-muted">JFRN</h3>
+		<div class="container">
+			<hr>
+		{{ content }}
+			<hr>
+		</div><!-- /.container -->
+		<footer>
+			<div class="navbar navbar-inverse navbar-fixed-bottom">
+				<div class="container">
+					<div class="navbar-collapse collapse" id="footer-body">
+						<ul class="nav navbar-nav" style="list-style-type: none;">
+							<li><a href="http://jfrn.github.io/">&copy; {{ site.time | date: "%Y" }} JFRN</a></li>
+							<li><a href="mailto:jfrn.josefer@gmail.com">Email</a></li>
+							<li><a href="https://github.com/jfrn">GitHub</a></li>
+						</ul>
+					</div>
+        </div>
+			</div>
+		</footer>
+	</body>
+</html>
