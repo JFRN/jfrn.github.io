@@ -2,7 +2,5 @@ name: José Rada
 markdown: kramdown
 timezone: America/Mexico_City
 encoding: utf-8
-gems:
-  - jemoji
 kramdown:
   input: GFM
