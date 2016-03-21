@@ -30,11 +30,13 @@
 			<footer>
 				<div class="navbar navbar-inverse navbar-fixed-bottom">
 					<div class="container">
-						<ul class="nnav navbar-nav">
-							<li><p>&copy; {{ site.time | date: "%Y" }} JFRN</p></li>
-							<li><a href="mailto:jfrn.josefer@gmail.com">Email</a></li>
-							<li><a href="https://github.com/jfrn">github.com/jfrn</a></li>
-						</ul>
+						<div class="navbar-collapse collapse" id="footer-body">
+							<ul class="nav navbar-nav" style="list-style-type: none;">
+								<li><p>&copy; {{ site.time | date: "%Y" }} JFRN</p></li>
+								<li><a href="mailto:jfrn.josefer@gmail.com">Email</a></li>
+								<li><a href="https://github.com/jfrn">GitHub</a></li>
+							</ul>
+						</div>
 						<div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#footer-body">
                     <span class="icon-bar"></span>
