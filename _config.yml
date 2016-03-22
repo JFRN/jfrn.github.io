@@ -4,3 +4,5 @@ timezone: America/Mexico_City
 encoding: utf-8
 kramdown:
   input: GFM
+pagination: 10
+paginate_path: "/blog/page:num/"
