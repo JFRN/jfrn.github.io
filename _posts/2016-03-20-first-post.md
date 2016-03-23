@@ -2,7 +2,7 @@
 layout: post
 title: "First post!"
 date: 2016-03-20
-permalink: /2016/03/20/first-post/
+permalink: pretty
 tags:
   - first
 ---
