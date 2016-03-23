@@ -292,10 +292,11 @@ a.sidebar-nav-item:focus {
   left: 0;
   visibility: visible;
 }
+
 #sidebar-checkbox:checked ~ .wrap {
   left: 14rem;
 }
-
+/*wrap is the true one*/
 
 /*
  * Posts and pages
