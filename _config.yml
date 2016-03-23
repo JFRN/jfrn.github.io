@@ -1,8 +1,45 @@
-name: José Rada
+# Dependencies
+
 markdown: kramdown
-timezone: America/Mexico_City
-encoding: utf-8
 kramdown:
   input: GFM
-pagination: 10
-paginate_path: "/blog/page:num/"
+gems:
+  - jekyll-paginate
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: []
+  layout: 'archive'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+# Setup
+
+title: José Rada
+name: José Rada
+tagline: 'Just learning'
+description: 'A website about myself and things I publish on the internet.'
+url: http://jfrn.github.io
+author:
+  name: 'José Rada'
+  url: http://jfrn.github.io
+timezone: America/Mexico_City
+encoding: utf-8
+
+# Pagination
+
+paginate: 7
+paginate_path: "/posts/page:num/"
+
+# Custom vars
+
+github:
+  repo: https://github.com/jfrn/jfrn.github.io
+
+# Directives
+
+exclude:
+  - old-site/
