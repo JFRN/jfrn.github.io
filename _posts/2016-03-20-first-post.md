@@ -5,8 +5,10 @@ author: José Rada
 date: 2016-03-20
 tags:
   - first
-  - first2
 category: uncategorized
+categories:
+ - posts
+ - uncategorized
 ---
 
 Finally started to use jekyll.
