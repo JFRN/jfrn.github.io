@@ -1,4 +1,11 @@
-# Released under MIT License
+##Website licensed under CC BY-NC 4.0
+
+http://creativecommons.org/licenses/by-nc/4.0/
+
+
+
+## Lanyon theme
+### Released under MIT License
 
 Copyright (c) 2014 Mark Otto.
 
