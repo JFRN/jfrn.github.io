@@ -1,69 +1,59 @@
+# Setup
+title: José Rada
+name: José Rada
+tagline: 'Just learning'
+description: 'A website about myself and things I publish on the internet.'
+url: http://jfrn.github.io
+author:
+  name: 'José Rada'
+  url: http://jfrn.github.io
+timezone: America/Mexico_City
+encoding: utf-8
+disqus: jfrn-io
+url: jfrn.github.io
+permalink: pretty
+# Pagination
+paginate: 7
+paginate_path: "/posts/:category/page:num/"
+# Custom vars
+github:
+  repo: https://github.com/jfrn/jfrn.github.io
+
+footer-links:
+ dribbble:
+ email: jfrn.josefer@gmail.com
+ facebook:
+ flickr:
+ github: jfrn/jfrn.github.io
+ instagram:
+ linkedin:
+ pinterest:
+ rss: # just type anything here for a working RSS icon
+ twitter: DarkJFRN
+ stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+ youtube: # channel/<your_long_string> or user/<user-name>
+ googleplus: # anything in your profile username that comes after plus.google.com/
+# Directives
 markdown: kramdown
 kramdown:
-	# Use GitHub flavored markdown, including triple backtick fenced code blocks
-	input: GFM
-	# Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-	syntax_highlighter: rouge
-	syntax_highlighter_opts:
-		# Use existing pygments syntax highlighting css
-		css_class: 'highlight'
-
+ # Use GitHub flavored markdown, including triple backtick fenced code blocks
+ input: GFM
+ # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+ syntax_highlighter: rouge
+ syntax_highlighter_opts:
+  css_class: 'highlight' # Use existing pygments syntax highlighting css
 gems:
   - jekyll-paginate #Old dependency of the theme
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 # Set the Sass partials directory, as we're using @imports
 sass:
-	style: :expanded # You might prefer to minify using :compressed
-
+ style: :expanded # You might prefer to minify using :compressed
 version: 1.0
-# Setup
-title: José Rada
-avatar: 
-tagline: 'Just learning'
-description: 'A website about myself and things I publish on the internet.'
-url: http://jfrn.github.io
-author:
-	name: 'José Rada'
-	url: http://jfrn.github.io
-timezone: America/Mexico_City
-encoding: utf-8
-disqus: jfrn-io
-url: jfrn.github.io
-permalink: /:title/
-
-# Pagination
-
-paginate: 7
-paginate_path: "/posts/page:num/"
-
-# Custom vars
-
-github:
-  repo: https://github.com/jfrn/jfrn.github.io
-
-footer-links:
-  dribbble:
-  email: jfrn.josefer@gmail.com
-  facebook:
-  flickr:
-  github: jfrn/jfrn.github.io
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: DarkJFRN
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
-
-# Directives
-
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
-  - old-site
+ - Gemfile
+ - Gemfile.lock
+ - LICENSE
+ - README.md
+ - CNAME
+ - old-site
