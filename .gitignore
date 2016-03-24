@@ -1,6 +1,14 @@
-_site/
 .jekyll-metadata/
 old-site/
+_site
+.DS_Store
+.jekyll
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+node_modules
+package.json
 
 # Ignore docs files
 _gh_pages
