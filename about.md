@@ -26,7 +26,7 @@ All of the content of this site is licensed under [CC BY-NC 4.0].
 ## Contact info
 You can send me an email [here][Email], or [tweet me][Twitter].
 
-[Email]: mailto:jfrn.josefer@gmail.com
-[Twitter]: http://www.twitter.com/@DarkJFRN
+[Email]: {{ site.author.email }}
+[Twitter]: http://www.twitter.com/@{{ site.author.twitter }}
 
 {% include disqus.html %}

@@ -5,8 +5,10 @@ tagline: 'Just learning'
 description: 'A website about myself and things I publish on the internet.'
 url: http://jfrn.github.io
 author:
-  name: 'José Rada'
-  url: http://jfrn.github.io
+ name: 'José Rada'
+ url: http://jfrn.github.io
+ email: jfrn.josefer@gmail.com
+ twitter: DarkJFRN
 timezone: America/Mexico_City
 encoding: utf-8
 disqus: jfrn-io
