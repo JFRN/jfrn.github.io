@@ -12,6 +12,7 @@ encoding: utf-8
 disqus: jfrn-io
 url: jfrn.github.io
 permalink: pretty
+baseurl: ''
 # Pagination
 paginate: 7
 paginate_path: "/posts/:category/page:num/"
