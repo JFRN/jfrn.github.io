@@ -28,3 +28,5 @@ You can send me an email [here][Email], or [tweet me][Twitter].
 
 [Email]: mailto:jfrn.josefer@gmail.com
 [Twitter]: http://www.twitter.com/@DarkJFRN
+
+{% include disqus.html %}
