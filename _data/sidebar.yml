@@ -1,0 +1,12 @@
+- url: /about/
+  title: About
+  group: navigation
+- url: /archive/
+  title: Archive
+  group: navigation
+- url: /archive/categories
+  title: Categories
+  group: navigation
+- url: https://github.com/JFRN/jfrn.github.io
+  title: GitHub project
+  group: navigation
