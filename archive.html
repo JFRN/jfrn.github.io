@@ -5,7 +5,7 @@ subtitle: by date
 permalink: /archive/
 ---
 <section id="archive">
-    <h3>{{ site.time | date: '%Y' }}</h3>
+    <a name="{{ site.time | date: '%Y' }}" class="jump"><h3>{{ site.time | date: '%Y' }}<a href="#{{ site.time | date: '%Y' }}"><i class="fa fa-link"></i></a></h3></a>
     {%for post in site.posts %}
     {% unless post.next %}
     <ul class="thisYear" style="list-style-type: none;">
@@ -14,13 +14,13 @@ permalink: /archive/
       {% capture nyear %}{{ post.next.date | date: '%Y' }} {% endcapture %}
     {% if year != nyear %}
     </ul>
-    <h3>{{ post.date | date: '%Y' }}</h3>
+    <a name="{{ site.time | date: '%Y' }}" class="jump"><h3>{{ post.date | date: '%Y' }}<a href="#{{ post.date | date: '%Y' }}"><i class="fa fa-link"></i></a></h3></a>
     <ul class="past" style="list-style-type: none;">
     {% endif %}
 
     {% endunless %}
                     {% comment %} What actually appears {% endcomment%}
-      <li><time>{{ post.date | date:"%-d %B" }} </time><a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><time>{{ post.date | date:"%-d %B" }} » </time><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     </ul>
 </section>

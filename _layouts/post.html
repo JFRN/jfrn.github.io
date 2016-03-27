@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_long_string }} in <a href="/../archive/categories#{{ page.category }}">{{ page.category }}</a> by {{ page.author }}</span>
+  <span class="post-date">{{ page.date | date_to_long_string }} in <a href="/../archive/categories/#{{ page.category }}">{{ page.categories | join: ', ' }}</a> by {{ page.author }}</span>
   {{ content }}
 </div>
 

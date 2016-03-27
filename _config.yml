@@ -1,26 +1,31 @@
-# Setup
-title: José Rada
-name: José Rada
-tagline: 'Just learning'
-description: 'A website about myself and things I publish on the internet.'
-url: http://jfrn.github.io
+# Author
 author:
- name: 'José Rada'
+ name: 'JFRN'
  url: http://jfrn.github.io
  email: jfrn.josefer@gmail.com
  twitter: DarkJFRN
-timezone: America/Mexico_City
-encoding: utf-8
-disqus: jfrn-io
-url: jfrn.github.io
-permalink: pretty
-baseurl: ''
-# Pagination
-paginate: 7
-paginate_path: "/posts/:category/page:num/"
+
 # Custom vars
 github:
   repo: https://github.com/jfrn/jfrn.github.io
+
+# Website
+description: 'A website about myself and things I publish on the internet.'
+url: http://jfrn.github.io
+title: JFRN
+name: JFRN
+tagline: '' # what will appear along the site name
+timezone: America/Mexico_City
+encoding: utf-8
+url: jfrn.github.io
+permalink: pretty
+baseurl: ''
+
+# Comments
+disqus: jfrn-io
+# Pagination
+paginate: 7
+
 # Directives
 markdown: kramdown
 kramdown:
@@ -30,14 +35,16 @@ kramdown:
  syntax_highlighter: rouge
  syntax_highlighter_opts:
   css_class: 'highlight' # Use existing pygments syntax highlighting css
+# Gems
+
 gems:
   - jekyll-paginate #Old dependency of the theme
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-# Set the Sass partials directory, as we're using @imports
-sass:
- style: :expanded # You might prefer to minify using :compressed
-version: 1.0
+  - jekyll-feed
+  - jekyll-gist # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude
+
 exclude:
  - Gemfile
  - Gemfile.lock

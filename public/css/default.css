@@ -3,11 +3,31 @@
    cursor: default;
 }
 .jump:hover {
-  text-decoration: none; /* no underline */
+  color: inherit;
+  text-decoration: none;
+}
+.jump {
+  color: inherit;
 }
 .pageSubtitle {
   font-size: 75%;
   font-weight: 400;
   color: #c0c0c0;
   letter-spacing: 0;
+}
+
+#archive time {
+  color: LightGray;
+}
+
+#archive h3 .fa-link {
+  opacity: 0;
+  color: Gray;
+  margin-left: .5em;
+}
+
+#archive h3:hover .fa-link{
+  opacity: 1;
+  color: Gray;
+  margin-left: .5em;
 }

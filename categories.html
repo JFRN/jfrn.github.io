@@ -5,12 +5,15 @@ subtitle: by category
 permalink: /archive/categories/
 ---
 <section id="archive">
-<a name="uncategorized" class="jump">
-  <h3>Uncategorized</h3>
-</a>
-<ul style="list-style-type: none;">
-  {% for post in site.categories.uncategorized %}
-        <li><time>{{ post.date | date:"%-d %B %Y" }} </time><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  {% for category in site.categories %}
+    <a name="{{ category | first | downcase}}" class="jump">
+      <h3></a>{{ category | first | capitalize}} ({{ category[1] | size}})<a href="#{{ category | first | downcase}}"><i class="fa fa-link"></i></a></h3>
+    </a>
+    <ul style="list-style-type: none;">
+      {% assign posts = category[1] %}
+      {% for post in posts %}
+            <li><time>{{ post.date | date:"%-d %B %Y" }} » </time><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
   {% endfor %}
-</ul>
 </section>

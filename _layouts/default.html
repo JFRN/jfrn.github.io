@@ -23,6 +23,9 @@
         {{ content }}
       </div>
     </div>
-
+    {% if page.comments %}{% include disqus_comments.html %}{% endif %}
+    <div style="display: none;">
+    {% include flagcounter.html %}
+</div>
   </body>
 </html>
