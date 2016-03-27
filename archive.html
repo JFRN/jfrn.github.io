@@ -15,7 +15,7 @@ permalink: /archive/
       {% capture nyear %}{{ post.next.date | date: '%Y' }} {% endcapture %}
     {% if year != nyear %}
     </ul>
-    <a name="{{ site.time | date: '%Y' }}" class="jump"><h3>{{ post.date | date: '%Y' }} ({{ site.posts | size}})<a href="#{{ post.date | date: '%Y' }}"><i class="fa fa-link"></i></a></h3></a>
+    <a name="{{ post.date | date: '%Y' }}" class="jump"><h3>{{ post.date | date: '%Y' }}<a href="#{{ post.date | date: '%Y' }}"><i class="fa fa-link"></i></a></h3></a>
     <ul class="past" style="list-style-type: none;">
     {% endif %}
 
