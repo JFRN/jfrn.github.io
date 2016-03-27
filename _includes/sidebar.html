@@ -24,6 +24,13 @@
     {% endfor %}
   </nav>
   <div class="sidebar-item">
+    <p class="social-icons">
+      <a href="https://www.github.com/{{ site.author.github }}" title="GitHub"><i class="fa fa-github fa-2x"></i></a>
+      <a href="https://twitter.com/@{{ site.author.twitter }}" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a>
+      <!--<a href="https://www.linkedin.com/in/site.author.linkedin"><i class="fa fa-linkedin fa-2x"></i></a>-->
+      <a href="https://plus.google.com/u/0/+{{ site.author.googleplus }}" title="Google+"><i class="fa fa-google-plus fa-2x"></i></a>
+      <a href="/rss/" title="RSS"><i class="fa fa-rss fa-2x"></i></a>
+    </p>
     <p>{% include license.html %}</p>
   </div>
 </div>

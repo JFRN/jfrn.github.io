@@ -31,3 +31,13 @@
   color: Gray;
   margin-left: .5em;
 }
+
+.sidebar .social-icons a {
+  color: White;
+  opacity: .5;
+  padding-right: 0.75em;
+}
+
+.sidebar .social-icons a:hover {
+  text-decoration: none;
+}

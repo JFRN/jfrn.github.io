@@ -6,7 +6,15 @@ permalink: /about/
 ---
 I'm José Rada, but please call me by my nickname, JFRN, which is the one I mostly use.
 
-This is a website I made to blog and to publish some things I like to do.
+This is a website I made to blog and publish some things I like to do.
+
+
+
+## Content of this site
+
+All of the content (except when stated otherwise) of this site is licensed under [CC BY-NC 4.0].
+
+[CC BY-NC 4.0]: http://creativecommons.org/licenses/by-nc/4.0/
 
 ## What's behind the scenes
 - **[Jekyll]** is what powers this site!
@@ -16,12 +24,6 @@ This is a website I made to blog and to publish some things I like to do.
 [Jekyll]: http://www.jekyllrb.com
 [Lanyon]: http://layon.getpoole.com
 [GitHub Pages]: http://pages.github.com
-
-## Content of this site
-
-All of the content of this site is licensed under [CC BY-NC 4.0].
-
-[CC BY-NC 4.0]: http://creativecommons.org/licenses/by-nc/4.0/
 
 ## Contact info
 You can send me an email [here][Email], or [tweet me][Twitter].

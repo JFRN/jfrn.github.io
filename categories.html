@@ -7,7 +7,7 @@ permalink: /archive/categories/
 <section id="archive">
   {% for category in site.categories %}
     {% capture postsNumber %}
-      {% assign number = site.posts.size%}
+      {% assign number = category[1].size %}
       {% if number == 1 %}
         ({{ category[1] | size}} post)
       {% else %}
