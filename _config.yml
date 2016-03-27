@@ -1,3 +1,5 @@
+regenerate: true
+
 # Author
 author:
  name: 'JFRN'
@@ -10,6 +12,7 @@ author:
 # Custom vars
 github:
   repo: https://github.com/jfrn/jfrn.github.io
+analytics: UA-75610758-1
 
 # Website
 description: 'A website about myself and things I publish on the internet.'
@@ -26,7 +29,8 @@ baseurl: ''
 # Comments
 disqus: jfrn-io
 # Pagination
-paginate: 7
+paginate: 10
+paginate_path: "posts/:num"
 
 # Directives
 markdown: kramdown
@@ -40,10 +44,16 @@ kramdown:
 # Gems
 
 gems:
-  - jekyll-paginate #Old dependency of the theme
+  - jekyll-paginate # Old dependency of the theme
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed
-  - jekyll-gist # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-gist
+  - sass
+# - jekyll-coffeescript
+
+sass:
+  sass_dir: _scss
+  style: compressed
 
 # Exclude
 
