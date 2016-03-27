@@ -15,7 +15,7 @@ permalink: /archive/tags/
       {% endif %}
     {% endcapture%}
 
-    <a name="{{ tag | first | downcase}}" class="jump">
+    <a id="{{ tag | first | downcase}}" class="jump">
       <h3></a>{{ tag | first | capitalize}} {{ postsNumber | escape }}<a href="#{{ tag | first | downcase}}"><i class="fa fa-link"></i></a></h3>
     </a>
     <ul style="list-style-type: none;">

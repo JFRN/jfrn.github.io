@@ -15,7 +15,7 @@ permalink: /archive/categories/
       {% endif %}
     {% endcapture%}
 
-    <a name="{{ category | first | downcase}}" class="jump">
+    <a id="{{ category | first | downcase}}" class="jump">
       <h3></a>{{ category | first | capitalize}} {{ postsNumber | escape }}<a href="#{{ category | first | downcase}}"><i class="fa fa-link"></i></a></h3>
     </a>
     <ul style="list-style-type: none;">
