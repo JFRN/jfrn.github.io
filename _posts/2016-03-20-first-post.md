@@ -6,4 +6,4 @@ date: 2016-03-20 12:00:00 -0600
 category: uncategorized
 ---
 
-Finally started to use jekyll.
+This post was the first ever written in this blog.

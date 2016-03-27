@@ -6,8 +6,17 @@ permalink: /archive/categories/
 ---
 <section id="archive">
   {% for category in site.categories %}
+    {% capture postsNumber %}
+      {% assign number = site.posts.size%}
+      {% if number == 1 %}
+        ({{ category[1] | size}} post)
+      {% else %}
+        ({{ category[1] | size}} posts)
+      {% endif %}
+    {% endcapture%}
+
     <a name="{{ category | first | downcase}}" class="jump">
-      <h3></a>{{ category | first | capitalize}} ({{ category[1] | size}})<a href="#{{ category | first | downcase}}"><i class="fa fa-link"></i></a></h3>
+      <h3></a>{{ category | first | capitalize}} {{ postsNumber | escape }}<a href="#{{ category | first | downcase}}"><i class="fa fa-link"></i></a></h3>
     </a>
     <ul style="list-style-type: none;">
       {% assign posts = category[1] %}
