@@ -13,9 +13,10 @@ permalink: /
       </a>
     </h1>
 
-    <span class="post-date"><i class="fa fa fa-calendar"></i>&nbsp;{{ post.date | date_to_string }}</span>
+    <span class="post-date"><i class="fa fa fa-calendar"></i>&nbsp;{{ post.date | date_to_string }} at <i class="fa fa-clock-o"></i>&nbsp;{{ post.date | date:"%H:%M" }}</span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+    <span class="readmore"><a href="{{ post.url | remove: ".html" }}"><i class="fa fa-long-arrow-right"></i>&nbsp;Read more</a></span>
   </div>
   {% endfor %}
 </div>

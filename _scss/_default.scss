@@ -1,3 +1,5 @@
+// Common
+
 .inactiveLink {
    pointer-events: none;
    cursor: default;
@@ -16,6 +18,15 @@
   letter-spacing: 0;
 }
 
+// Index
+
+.readmore {
+  float: right;
+  align: center;
+}
+
+//Archive
+
 #archive time {
   color: LightGray;
 }
@@ -32,15 +43,6 @@
   margin-left: .5em;
 }
 
-.sidebar .social-icons a {
-  color: White;
-  opacity: .5;
-  padding-right: 0.75em;
-}
-
-.sidebar .social-icons a:hover {
-  text-decoration: none;
-}
 
 .post-tags {
   display: block;
@@ -51,5 +53,21 @@
 }
 
 .post-date .fa-clock{
-  
+
+}
+
+// Sidebar
+
+.sidebar {
+  font-size: 0.8rem;
+}
+
+.sidebar .social-icons a {
+  color: White;
+  opacity: .5;
+  padding-right: 0.75em;
+}
+
+.sidebar .social-icons a:hover {
+  text-decoration: none;
 }

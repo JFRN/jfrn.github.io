@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date"><i class="fa fa fa-calendar"></i>&nbsp;{{ page.date | date_to_long_string }} in <i class="fa fa-list-alt"></i>&nbsp;<a href="/../archive/categories/#{{ page.category }}">{{ page.category | downcase }}</a></span>
+  <span class="post-date"><i class="fa fa fa-calendar"></i>&nbsp;{{ page.date | date_to_long_string }} at <i class="fa fa-clock-o"></i>&nbsp;{{ page.date | date:"%H:%M" }} in <i class="fa fa-list-alt"></i>&nbsp;<a href="/../archive/categories/#{{ page.category }}">{{ page.category | downcase }}</a></span>
 
   {{ content }}
 </div>

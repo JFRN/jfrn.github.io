@@ -13,6 +13,7 @@ author:
 github:
   repo: https://github.com/jfrn/jfrn.github.io
 analytics: UA-75610758-1
+excerpt_separator: <!--more-->
 
 # Website
 description: 'A website about myself and things I publish on the internet.'
