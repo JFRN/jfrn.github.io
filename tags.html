@@ -1,0 +1,28 @@
+---
+layout: page
+title: Archive
+subtitle: by tag
+permalink: /archive/tags/
+---
+<section id="archive">
+  {% for tag in site.tags %}
+    {% capture postsNumber %}
+      {% assign number = tag[1].size %}
+      {% if number == 1 %}
+        ({{ tag[1] | size}} post)
+      {% else %}
+        ({{ tag[1] | size}} posts)
+      {% endif %}
+    {% endcapture%}
+
+    <a name="{{ tag | first | downcase}}" class="jump">
+      <h3></a>{{ tag | first | capitalize}} {{ postsNumber | escape }}<a href="#{{ tag | first | downcase}}"><i class="fa fa-link"></i></a></h3>
+    </a>
+    <ul style="list-style-type: none;">
+      {% assign posts = tag[1] %}
+      {% for post in posts %}
+            <li><time>{{ post.date | date:"%-d %B %Y" }} » </time><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</section>
