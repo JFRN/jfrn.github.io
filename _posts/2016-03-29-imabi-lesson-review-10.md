@@ -62,7 +62,8 @@ As a note, avoid all the 2's in written language, they are only usually used use
 >The forms in the "polite speech" column are historically incorrect. In the future, we'll learn why this is, but for now, don't feel bad or wrong for using them. Although they are completely fine in the spoken language, they are avoided at all costs in the written language in many forms of writing and formal speech. This is why the "more polite" column is even of importance to you.
 
 Also:
->*: 新しくあります and its plain form 新しくある are possible. They are essentially never used as is in the spoken language as doing so is rather old-fashioned. This does not apply to the other "more polite" forms.　If it is used, the particle はis usually inserted to give 新しくはあります, but a contrasting structure should be used along with it. We have not gotten to this grammar yet, but it is important to keep an eye out.
+
+>*: 新しくあります and its plain form 新しくある are possible. They are essentially never used as is in the spoken language as doing so is rather old-fashioned. This does not apply to the other "more polite" forms. If it is used, the particle はis usually inserted to give 新しくはあります, but a contrasting structure should be used along with it. We have not gotten to this grammar yet, but it is important to keep an eye out.
 
 ### よい
 
@@ -71,6 +72,7 @@ Also:
 ### Slang
 
 Best to cite [IMABI] in this one:
+
 >いい can also become ええ in slang. In fact, ai, oi, and ii at the end of adjectives contract to ē in slang. "Ye" and "we" aren't possible in Standard Japanese, so in this case y and w are dropped. Although it is rather unorthodox to be learning of this at the beginning, the reality is that these forms are used excessively in the pop culture medias that you are surely exposed to. Don't be confused when you see these forms. You should understand that using them in a non-casual setting is rude to say the least. So, use with caution.
 
 | 強い (strong) | つよい　→　つえー |  怖い (scary) |  こわい　→　こえー |
