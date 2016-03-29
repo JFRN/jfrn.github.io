@@ -31,4 +31,6 @@ You can send me an email [here][Email], or [tweet me][Twitter].
 [Email]: {{ site.author.email }}
 [Twitter]: http://www.twitter.com/@{{ site.author.twitter }}
 
+<div class="comments">
 {% include disqus.html %}
+</div>
