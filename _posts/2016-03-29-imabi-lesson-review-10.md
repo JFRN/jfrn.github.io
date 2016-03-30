@@ -59,6 +59,7 @@ For the same adjective, we have, in order, plain, polite and more polite.
 3. 新しくありませんでした。
 
 As a note, avoid all the 2's in written language, they are only usually used used in spoken language. As [IMABI] says:
+
 >The forms in the "polite speech" column are historically incorrect. In the future, we'll learn why this is, but for now, don't feel bad or wrong for using them. Although they are completely fine in the spoken language, they are avoided at all costs in the written language in many forms of writing and formal speech. This is why the "more polite" column is even of importance to you.
 
 Also:

@@ -22,7 +22,7 @@ All of the content (except when stated otherwise) of this site is licensed under
 - **[GitHub Pages]** is where this site is hosted.
 
 [Jekyll]: http://www.jekyllrb.com
-[Lanyon]: http://layon.getpoole.com
+[Lanyon]: http://lanyon.getpoole.com
 [GitHub Pages]: http://pages.github.com
 
 ## Contact info
