@@ -65,3 +65,4 @@ exclude:
  - README.md
  - CNAME
  - old-site
+ - _trash
