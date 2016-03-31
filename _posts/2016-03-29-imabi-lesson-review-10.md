@@ -58,7 +58,7 @@ For the same adjective, we have, in order, plain, polite and more polite.
 2. 新しくなっかたです。
 3. 新しくありませんでした。
 
-As a note, avoid all the 2's in written language, they are only usually used used in spoken language. As [IMABI] says:
+As a note, avoid all the 2's in written language, they are only usually used in spoken language. As [IMABI] says:
 
 >The forms in the "polite speech" column are historically incorrect. In the future, we'll learn why this is, but for now, don't feel bad or wrong for using them. Although they are completely fine in the spoken language, they are avoided at all costs in the written language in many forms of writing and formal speech. This is why the "more polite" column is even of importance to you.
 
@@ -85,6 +85,7 @@ Best to cite [IMABI] in this one:
 Some adjectives, appear to have an additional form that can't be conjugated. They can also have another regular attributive form, the form they are when they're located before what they modify.
 
 Examples, by [IMABI]:
+
 1. 小さい・小さな
 2. おかしい・おかしな	 
 3. 大きい・大きな
