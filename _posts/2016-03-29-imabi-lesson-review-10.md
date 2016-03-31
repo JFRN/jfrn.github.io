@@ -9,12 +9,14 @@ tags:
  - imabi
  - review
 ---
-I will start doing this kind of reviews, for (hopefully) most [IMABI] lessons. I will start at lesson 10, because I've already read past lessons a lot. So here we go.
+I will start doing this kind of reviews, for (hopefully) most [IMABI] lessons. I'll start at lesson 10, because I've already read past lessons a lot. 
+
+So here we go.
 <!--more-->
 
 ## 形容詞
 
-Adjectives, as I know them, words that describe things, [IMABI] says they can be used as predicates. The term for predicative form is しゅうしけい, and it looks like this:
+Adjectives, as I know them: words that describe things; [IMABI] says they can be used as predicates. The term for predicative form is しゅうしけい, and it looks like this:
 
 1. その花は**美しい**。
 2. あの学校の建物が**新しい**。
@@ -50,7 +52,7 @@ For the same adjective, we have, in order, plain, polite and more polite.
 
 1. 新しくない。
 2. 新しくないです。
-3. あたらしくありませｎ。
+3. 新しくありませｎ。
 
 **Negative past**
 
